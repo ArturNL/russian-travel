@@ -1,0 +1,16 @@
+@import url('../../blocks/container/__item/container__item.css');
+@import url('../../blocks/container/__image/container__image.css');
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .container {
+        flex-direction: column;
+    }
+}

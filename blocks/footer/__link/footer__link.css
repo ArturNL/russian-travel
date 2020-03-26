@@ -1,0 +1,21 @@
+.footer__link {
+    max-width: 160px;
+    max-height: 25px;
+    margin: 0;
+    margin-right: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 41px;
+    padding: 0;
+    color: #ffffff;
+    text-decoration-line: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer__link {
+        font-size: 16px;
+        line-height: 27px;
+        justify-self: flex-end;
+    }
+}

@@ -1,0 +1,27 @@
+@import url('../../blocks/cover/_bg/cover_bg.css');
+@import url('../../blocks/cover/__title/cover__title.css');
+@import url('../../blocks/cover/__subtitle/cover__subtitle.css');
+@import url('../../blocks/cover/__image/cover__image.css');
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 102px auto 0;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .cover {
+        margin: 64px auto 0;
+        max-width: 320px;
+    }
+}

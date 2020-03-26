@@ -1,0 +1,30 @@
+@import url('../../blocks/footer/__links/footer__links.css');
+@import url('../../blocks/footer/__link/footer__link.css');
+@import url('../../blocks/footer/__copyright/footer__copyright.css');
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 100px auto 48px;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+        margin: 102px auto 24px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+        margin: 0;
+        margin-top: 64px;
+        margin-bottom: 24px;
+        margin-left: 16px;
+    }
+}

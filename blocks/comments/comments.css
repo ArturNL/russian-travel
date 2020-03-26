@@ -1,0 +1,11 @@
+@import url('../../blocks/comments/__container/comments__container.css');
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 102px auto 0;
+    color: #ffffff;
+}

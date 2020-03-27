@@ -1,6 +1,6 @@
-@import url('../../blocks/comment/__image/comment__image.css');
-@import url('../../blocks/comment/__quote/comment__quote.css');
-@import url('../../blocks/comment/__author/comment__author.css');
+@import url('./__image/comment__image.css');
+@import url('./__quote/comment__quote.css');
+@import url('./__author/comment__author.css');
 
 .comment {
     display: flex;

@@ -1,5 +1,4 @@
-@import url('../../intro/__text/_info/intro__text_info.css');
-@import url('../../intro/__text/_info/_border/intro__text_info_border.css');
+@import url('./_info/intro__text_info.css');
 
 .intro__text {
     max-width: 383px;

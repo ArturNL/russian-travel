@@ -1,6 +1,6 @@
-@import url('../../blocks/intro/__title/intro__title.css');
-@import url('../../blocks/intro/__content-row/intro__content-row.css');
-@import url('../../blocks/intro/__text/intro__text.css');
+@import url('./__title/intro__title.css');
+@import url('./__content-row/intro__content-row.css');
+@import url('./__text/intro__text.css');
 
 .intro {
     display: flex;

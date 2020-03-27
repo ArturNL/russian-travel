@@ -1,5 +1,5 @@
-@import url('../../blocks/container/__item/container__item.css');
-@import url('../../blocks/container/__image/container__image.css');
+@import url('./__item/container__item.css');
+@import url('./__image/container__image.css');
 
 .container {
     display: flex;

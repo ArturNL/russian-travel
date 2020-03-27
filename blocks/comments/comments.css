@@ -1,4 +1,4 @@
-@import url('../../blocks/comments/__container/comments__container.css');
+@import url('./__container/comments__container.css');
 
 .comments {
     display: flex;

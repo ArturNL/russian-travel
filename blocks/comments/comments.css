@@ -1,6 +1,8 @@
 @import url('./__container/comments__container.css');
 
 .comments {
+    max-width: 1184px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -8,4 +10,22 @@
     top: 0;
     margin: 102px auto 0;
     color: #ffffff;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .comments {
+        max-width: 928px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .comments {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .comments {
+        max-width: 288px;
+    }
 }

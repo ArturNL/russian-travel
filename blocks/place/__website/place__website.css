@@ -6,6 +6,10 @@
     place-self: end start;
 }
 
+.place__website:hover {
+    opacity: .7;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__website {
         place-self: start;

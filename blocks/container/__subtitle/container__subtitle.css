@@ -1,4 +1,5 @@
 .container__subtitle {
+    position: relative;
     max-width: 174px;
     margin: 0;
     margin-top: 18px;
@@ -8,6 +9,7 @@
     font-size: 14px;
     line-height: 15px;
     white-space: nowrap;
+    z-index: 1;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {

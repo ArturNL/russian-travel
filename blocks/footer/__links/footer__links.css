@@ -1,4 +1,4 @@
-.footer__menu-links {
+.footer__links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .footer__menu-links {
+    .footer__links {
         flex-direction: column;
     }
 }

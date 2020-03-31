@@ -1,6 +1,5 @@
 .header__langs {
     display: flex;
-    flex-direction: row;
     align-items: flex-end;
     list-style-type: none;
     margin-top: 17px;

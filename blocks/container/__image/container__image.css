@@ -1,4 +1,8 @@
 .container__image {
+    max-width: 583px;
+    position: absolute;
+    top: 0;
+    left: 0;
     opacity: 0.5;
 }
 

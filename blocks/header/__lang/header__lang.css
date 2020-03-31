@@ -23,4 +23,8 @@
         font-size: 18px;
         line-height: 17px;
     }
+
+    .header__lang:last-of-type {
+        margin-left: 5px;
+    }
 }

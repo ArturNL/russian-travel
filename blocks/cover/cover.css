@@ -1,4 +1,4 @@
-@import url('./_bg/cover_bg.css');
+@import url('./__bg/cover__bg.css');
 @import url('./__title/cover__title.css');
 @import url('./__subtitle/cover__subtitle.css');
 @import url('./__image/cover__image.css');
@@ -9,27 +9,25 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 0;
-    left: 0;
     margin: 102px auto 0;
     color: #ffffff;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 901px) and (max-width: 1279px) {
     .cover {
-        max-width: 928px;
+        max-width: 1184px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 900px) {
     .cover {
-        max-width: 768px;
+        max-width: 900px;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .cover {
         margin: 64px auto 0;
-        max-width: 320px;
+        max-width: 400px;
     }
 }

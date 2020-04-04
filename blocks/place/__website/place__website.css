@@ -1,21 +1,19 @@
 .place__website {
-    max-width: 484px;
-    height: 46px;
     font-style: normal;
     font-weight: normal;
     place-self: end start;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 600px) and (max-width: 1023px) {
     .place__website {
-        place-self: start;
+        place-self:  end start;
         margin: 0;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 599px) {
     .place__website {
-        margin: -30px 16px;
+        margin: -50px 16px;
         z-index: -1;
     }
 }

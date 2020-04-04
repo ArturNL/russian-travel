@@ -1,4 +1,5 @@
 .cover__title {
+    position: relative;
     max-width: 1094.27px;
     margin: 274px auto 0;
     font-style: normal;
@@ -6,30 +7,54 @@
     font-size: 72px;
     line-height: 78px;
     text-align: center;
-    color: #fffdfd;
     white-space: nowrap;
     text-decoration: none;
+    z-index: 1;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 950px) and (max-width: 1149px) {
     .cover__title {
-        max-width: 500px;
         white-space: normal;
         margin: 211px auto 0;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 890px) and (max-width: 949px) {
     .cover__title {
-        max-width: 500px;
+        max-width: 60%;
         white-space: normal;
-        margin: 15% auto 0;
+        margin: 170px auto 0;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 830px) and (max-width: 889px) {
     .cover__title {
-        margin: 10% auto 0;
+        max-width: 60%;
+        white-space: normal;
+        margin: 130px auto 0;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 829px) {
+    .cover__title {
+        white-space: normal;
+        margin: 120px auto 0;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 699px) {
+    .cover__title {
+        margin: 25% auto 0;
+        max-width: 65%;
+        font-size: 32px;
+        line-height: 35px;
+        white-space: normal;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .cover__title {
+        margin: 70px auto 0;
         max-width: 240px;
         font-size: 32px;
         line-height: 35px;

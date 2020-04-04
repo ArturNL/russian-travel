@@ -2,10 +2,22 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    opacity: 0.5;
+    max-width: 100%;
+    opacity: 0.7;
 }
 
 .cover__image:hover {
-    opacity: 0.7;
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 500px) {
+    .cover__image {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .cover__image {
+        max-width: 140%;
+    }
 }

@@ -1,3 +1,5 @@
 .cover__bg {
+    position: relative;
     text-decoration: none;
+    color: #ffffff;
 }

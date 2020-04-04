@@ -4,37 +4,14 @@
 
 .header {
     max-width: 1184px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    position: relative;
-    top: 30px;
+    padding-top: 30px;
 }
 
-@media screen and (min-width: 901px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .header {
-        max-width: 928px;
-        margin: 0 5%;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 900px) {
-    .header {
-        max-width: 720px;
-    }
-}
-
-@media screen and (min-width: 425px) and (max-width: 767px) {
-    .header {
-        max-width: 400px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (min-width: 320px) and (max-width: 424px) {
-    .header {
-        max-width: 288px;
-        margin: 16 auto;
+        max-width: 90%;
     }
 }

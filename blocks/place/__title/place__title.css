@@ -1,5 +1,4 @@
 .place__title {
-    max-width: 460px;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -7,7 +6,7 @@
     margin: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 600px) and (max-width: 1023px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
@@ -15,10 +14,21 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 376px) and (max-width: 599px) {
     .place__title {
         font-size: 32px;
         line-height: 35px;
-        margin: 0 16px;
+        margin: 0;
+        max-width: 90%;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: -20px;
+        margin-left: 20px;
     }
 }

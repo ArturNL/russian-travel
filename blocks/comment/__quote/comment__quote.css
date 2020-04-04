@@ -1,17 +1,18 @@
 .comment__quote {
+    margin: 0;
+    margin-top: 42px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 799px) {
     .comment__quote {
         align-self: center;
         padding-left: 50px;
         order: 1;
         text-align: left;
-        margin: 0;
     }
 }
 
@@ -20,6 +21,7 @@
         align-self: center;
         order: 1;
         text-align: left;
-        margin: 0;
+        font-size: 16px;
+        line-height: 23px;
     }
 }

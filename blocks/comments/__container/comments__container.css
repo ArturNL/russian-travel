@@ -1,8 +1,12 @@
 .comments__container {
-    max-width: 1184px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 19px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 799px) {
+    .comments__container {
+        display: flex;
+        flex-direction: column;
+    }
 }
